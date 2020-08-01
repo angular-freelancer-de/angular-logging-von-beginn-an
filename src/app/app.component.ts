@@ -11,9 +11,9 @@ export class AppComponent implements OnInit  {
   constructor(private loggerService: LoggerService) {}
 
   ngOnInit(): void {
-    this.loggerService.info("It's a info");
-    this.loggerService.debug("It's debug");
-    this.loggerService.warn("It's a warning");
-    this.loggerService.error("It's a error");
+    this.loggerService.info("It's an info message");
+    this.loggerService.debug("It's a debug message");
+    this.loggerService.warn("It's a warning message");
+    this.loggerService.error("It's an error message");
   }
 }
